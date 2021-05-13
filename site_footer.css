@@ -1,3 +1,7 @@
 body footer {
     text-align: center;
+    position: fixed;
+    background: whitesmoke;
+    width: 100%;
+    bottom: 0;
 }

@@ -10,6 +10,8 @@ body>header {
     white-space: nowrap;
     font-size: 0;
     overflow: hidden;
+    background: whitesmoke;
+    position: fixed;
 }
 
 body>header>* {
@@ -20,6 +22,6 @@ body>header>* {
 
 body>header h1 {
     width: calc( 100vw / 2);
-    background: deeppink;
+    /*background: deeppink;*/
 }
 
