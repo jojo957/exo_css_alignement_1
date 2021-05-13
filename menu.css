@@ -1,0 +1,22 @@
+body>header nav {
+    background: aquamarine;
+    width: calc( 100vw / 4);
+    text-align: right;
+    /*margin-left: -12px;*/
+}
+
+
+body>header nav .material-icons-two-tone:hover+ul,
+body>header nav ul:hover {
+    visibility: visible;
+}
+
+body>header nav ul {
+    position: absolute;
+    height: 0;
+    right: 0;
+    text-align: right;
+    visibility: hidden;
+    overflow: hidden;
+}
+
